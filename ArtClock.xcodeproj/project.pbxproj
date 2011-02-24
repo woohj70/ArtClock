@@ -31,6 +31,7 @@
 		E71A84631316A67C0077BAC9 /* sunandmoon.png in Resources */ = {isa = PBXBuildFile; fileRef = E71A845B1316A67C0077BAC9 /* sunandmoon.png */; };
 		E71A84641316A67C0077BAC9 /* sunandmoon@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = E71A845C1316A67C0077BAC9 /* sunandmoon@2x.png */; };
 		E71A848B1316BAE30077BAC9 /* RootViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E71A848A1316BADD0077BAC9 /* RootViewController.m */; };
+		E71A848E1316BFD80077BAC9 /* README in Resources */ = {isa = PBXBuildFile; fileRef = E71A848D1316BFD80077BAC9 /* README */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -67,6 +68,7 @@
 		E71A845C1316A67C0077BAC9 /* sunandmoon@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "sunandmoon@2x.png"; path = "Resources/images/sunandmoon@2x.png"; sourceTree = "<group>"; };
 		E71A84891316BADB0077BAC9 /* RootViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RootViewController.h; sourceTree = "<group>"; };
 		E71A848A1316BADD0077BAC9 /* RootViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RootViewController.m; sourceTree = "<group>"; };
+		E71A848D1316BFD80077BAC9 /* README */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = README; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -86,6 +88,7 @@
 		E71A8411131695570077BAC9 = {
 			isa = PBXGroup;
 			children = (
+				E71A848D1316BFD80077BAC9 /* README */,
 				E71A843B131696E70077BAC9 /* Resources */,
 				E71A843A131696950077BAC9 /* Classes */,
 				E71A84261316955D0077BAC9 /* ArtClock */,
@@ -274,6 +277,7 @@
 				E71A84621316A67C0077BAC9 /* sunandearth@2x.png in Resources */,
 				E71A84631316A67C0077BAC9 /* sunandmoon.png in Resources */,
 				E71A84641316A67C0077BAC9 /* sunandmoon@2x.png in Resources */,
+				E71A848E1316BFD80077BAC9 /* README in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
