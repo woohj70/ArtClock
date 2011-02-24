@@ -21,11 +21,11 @@
 		E71A84201316955D0077BAC9 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
 		E71A84221316955D0077BAC9 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		E71A84241316955D0077BAC9 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
-		E71A84281316955D0077BAC9 /* ArtClock-Info.plist */ = {isa = PBXFileReference; path = "ArtClock-Info.plist"; sourceTree = "<group>"; };
+		E71A84281316955D0077BAC9 /* ArtClock-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "ArtClock-Info.plist"; sourceTree = "<group>"; };
 		E71A842A1316955D0077BAC9 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
-		E71A842C1316955D0077BAC9 /* ArtClock-Prefix.pch */ = {isa = PBXFileReference; path = "ArtClock-Prefix.pch"; sourceTree = "<group>"; };
+		E71A842C1316955D0077BAC9 /* ArtClock-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "ArtClock-Prefix.pch"; sourceTree = "<group>"; };
 		E71A842D1316955D0077BAC9 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
-		E71A842F1316955D0077BAC9 /* ArtClockAppDelegate.h */ = {isa = PBXFileReference; path = ArtClockAppDelegate.h; sourceTree = "<group>"; };
+		E71A842F1316955D0077BAC9 /* ArtClockAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ArtClockAppDelegate.h; sourceTree = "<group>"; };
 		E71A84301316955D0077BAC9 /* ArtClockAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ArtClockAppDelegate.m; sourceTree = "<group>"; };
 		E71A84331316955D0077BAC9 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/MainWindow.xib; sourceTree = "<group>"; };
 /* End PBXFileReference section */
