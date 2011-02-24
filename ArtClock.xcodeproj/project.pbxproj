@@ -1,0 +1,269 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		E71A84211316955D0077BAC9 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E71A84201316955D0077BAC9 /* UIKit.framework */; };
+		E71A84231316955D0077BAC9 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E71A84221316955D0077BAC9 /* Foundation.framework */; };
+		E71A84251316955D0077BAC9 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E71A84241316955D0077BAC9 /* CoreGraphics.framework */; };
+		E71A842B1316955D0077BAC9 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = E71A84291316955D0077BAC9 /* InfoPlist.strings */; };
+		E71A842E1316955D0077BAC9 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = E71A842D1316955D0077BAC9 /* main.m */; };
+		E71A84311316955D0077BAC9 /* ArtClockAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = E71A84301316955D0077BAC9 /* ArtClockAppDelegate.m */; };
+		E71A84341316955D0077BAC9 /* MainWindow.xib in Resources */ = {isa = PBXBuildFile; fileRef = E71A84321316955D0077BAC9 /* MainWindow.xib */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		E71A841C1316955D0077BAC9 /* ArtClock.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ArtClock.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		E71A84201316955D0077BAC9 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		E71A84221316955D0077BAC9 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		E71A84241316955D0077BAC9 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		E71A84281316955D0077BAC9 /* ArtClock-Info.plist */ = {isa = PBXFileReference; path = "ArtClock-Info.plist"; sourceTree = "<group>"; };
+		E71A842A1316955D0077BAC9 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		E71A842C1316955D0077BAC9 /* ArtClock-Prefix.pch */ = {isa = PBXFileReference; path = "ArtClock-Prefix.pch"; sourceTree = "<group>"; };
+		E71A842D1316955D0077BAC9 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		E71A842F1316955D0077BAC9 /* ArtClockAppDelegate.h */ = {isa = PBXFileReference; path = ArtClockAppDelegate.h; sourceTree = "<group>"; };
+		E71A84301316955D0077BAC9 /* ArtClockAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ArtClockAppDelegate.m; sourceTree = "<group>"; };
+		E71A84331316955D0077BAC9 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/MainWindow.xib; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		E71A84191316955D0077BAC9 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E71A84211316955D0077BAC9 /* UIKit.framework in Frameworks */,
+				E71A84231316955D0077BAC9 /* Foundation.framework in Frameworks */,
+				E71A84251316955D0077BAC9 /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		E71A8411131695570077BAC9 = {
+			isa = PBXGroup;
+			children = (
+				E71A84261316955D0077BAC9 /* ArtClock */,
+				E71A841F1316955D0077BAC9 /* Frameworks */,
+				E71A841D1316955D0077BAC9 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		E71A841D1316955D0077BAC9 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				E71A841C1316955D0077BAC9 /* ArtClock.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		E71A841F1316955D0077BAC9 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				E71A84201316955D0077BAC9 /* UIKit.framework */,
+				E71A84221316955D0077BAC9 /* Foundation.framework */,
+				E71A84241316955D0077BAC9 /* CoreGraphics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		E71A84261316955D0077BAC9 /* ArtClock */ = {
+			isa = PBXGroup;
+			children = (
+				E71A842F1316955D0077BAC9 /* ArtClockAppDelegate.h */,
+				E71A84301316955D0077BAC9 /* ArtClockAppDelegate.m */,
+				E71A84321316955D0077BAC9 /* MainWindow.xib */,
+				E71A84271316955D0077BAC9 /* Supporting Files */,
+			);
+			path = ArtClock;
+			sourceTree = "<group>";
+		};
+		E71A84271316955D0077BAC9 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				E71A84281316955D0077BAC9 /* ArtClock-Info.plist */,
+				E71A84291316955D0077BAC9 /* InfoPlist.strings */,
+				E71A842C1316955D0077BAC9 /* ArtClock-Prefix.pch */,
+				E71A842D1316955D0077BAC9 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		E71A841B1316955D0077BAC9 /* ArtClock */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E71A84371316955E0077BAC9 /* Build configuration list for PBXNativeTarget "ArtClock" */;
+			buildPhases = (
+				E71A84181316955D0077BAC9 /* Sources */,
+				E71A84191316955D0077BAC9 /* Frameworks */,
+				E71A841A1316955D0077BAC9 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = ArtClock;
+			productName = ArtClock;
+			productReference = E71A841C1316955D0077BAC9 /* ArtClock.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		E71A8413131695570077BAC9 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				ORGANIZATIONNAME = Mazdah.com;
+			};
+			buildConfigurationList = E71A8416131695580077BAC9 /* Build configuration list for PBXProject "ArtClock" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = E71A8411131695570077BAC9;
+			productRefGroup = E71A841D1316955D0077BAC9 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				E71A841B1316955D0077BAC9 /* ArtClock */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		E71A841A1316955D0077BAC9 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E71A842B1316955D0077BAC9 /* InfoPlist.strings in Resources */,
+				E71A84341316955D0077BAC9 /* MainWindow.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		E71A84181316955D0077BAC9 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E71A842E1316955D0077BAC9 /* main.m in Sources */,
+				E71A84311316955D0077BAC9 /* ArtClockAppDelegate.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		E71A84291316955D0077BAC9 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				E71A842A1316955D0077BAC9 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		E71A84321316955D0077BAC9 /* MainWindow.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				E71A84331316955D0077BAC9 /* en */,
+			);
+			name = MainWindow.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		E71A84351316955E0077BAC9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = DEBUG;
+				GCC_VERSION = com.apple.compilers.llvmgcc42;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 4.2;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		E71A84361316955E0077BAC9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_VERSION = com.apple.compilers.llvmgcc42;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 4.2;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+			};
+			name = Release;
+		};
+		E71A84381316955E0077BAC9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				COPY_PHASE_STRIP = NO;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "ArtClock/ArtClock-Prefix.pch";
+				INFOPLIST_FILE = "ArtClock/ArtClock-Info.plist";
+				INSTALL_PATH = "$(LOCAL_APPS_DIR)";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		E71A84391316955E0077BAC9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				COPY_PHASE_STRIP = YES;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "ArtClock/ArtClock-Prefix.pch";
+				INFOPLIST_FILE = "ArtClock/ArtClock-Info.plist";
+				INSTALL_PATH = "$(LOCAL_APPS_DIR)";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				VALIDATE_PRODUCT = YES;
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		E71A8416131695580077BAC9 /* Build configuration list for PBXProject "ArtClock" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E71A84351316955E0077BAC9 /* Debug */,
+				E71A84361316955E0077BAC9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E71A84371316955E0077BAC9 /* Build configuration list for PBXNativeTarget "ArtClock" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E71A84381316955E0077BAC9 /* Debug */,
+				E71A84391316955E0077BAC9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = E71A8413131695570077BAC9 /* Project object */;
+}
