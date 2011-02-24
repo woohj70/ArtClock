@@ -8,16 +8,32 @@
 
 #import "ArtClockAppDelegate.h"
 
+#import "RootViewController.h"
+#import "SunAndMoonViewController.h"
+#import "SkyAndStarsViewController.h"
+#import "SunAndEarthViewcontroller.h"
+#import "SkyAndTreeViewController.h"
+
 @implementation ArtClockAppDelegate
 
 
 @synthesize window=_window;
 
+/*
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions
 {
     // Override point for customization after application launch.
     [self.window makeKeyAndVisible];
     return YES;
+}
+*/
+
+- (void) applicationDidFinishLaunching:(UIApplication *)application {
+    RootViewController *rootViewController = [[RootViewController alloc] init];
+    
+    self.window.rootViewController = rootViewController;
+    [self.window addSubview:rootViewController.view];
+    [self.window makeKeyAndVisible];
 }
 
 - (void)applicationWillResignActive:(UIApplication *)application

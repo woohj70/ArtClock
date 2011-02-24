@@ -14,6 +14,23 @@
 		E71A842E1316955D0077BAC9 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = E71A842D1316955D0077BAC9 /* main.m */; };
 		E71A84311316955D0077BAC9 /* ArtClockAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = E71A84301316955D0077BAC9 /* ArtClockAppDelegate.m */; };
 		E71A84341316955D0077BAC9 /* MainWindow.xib in Resources */ = {isa = PBXBuildFile; fileRef = E71A84321316955D0077BAC9 /* MainWindow.xib */; };
+		E71A8443131698930077BAC9 /* SkyAndTreeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E71A8441131698930077BAC9 /* SkyAndTreeViewController.m */; };
+		E71A8444131698930077BAC9 /* SkyAndTreeViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = E71A8442131698930077BAC9 /* SkyAndTreeViewController.xib */; };
+		E71A8448131698CE0077BAC9 /* SunAndEarthViewcontroller.m in Sources */ = {isa = PBXBuildFile; fileRef = E71A8446131698CE0077BAC9 /* SunAndEarthViewcontroller.m */; };
+		E71A8449131698CE0077BAC9 /* SunAndEarthViewcontroller.xib in Resources */ = {isa = PBXBuildFile; fileRef = E71A8447131698CE0077BAC9 /* SunAndEarthViewcontroller.xib */; };
+		E71A844D131699080077BAC9 /* SkyAndStarsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E71A844B131699080077BAC9 /* SkyAndStarsViewController.m */; };
+		E71A844E131699080077BAC9 /* SkyAndStarsViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = E71A844C131699080077BAC9 /* SkyAndStarsViewController.xib */; };
+		E71A84531316A39D0077BAC9 /* SunAndMoonViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E71A84511316A39C0077BAC9 /* SunAndMoonViewController.m */; };
+		E71A84541316A39D0077BAC9 /* SunAndMoonViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = E71A84521316A39C0077BAC9 /* SunAndMoonViewController.xib */; };
+		E71A845D1316A67C0077BAC9 /* skyandstars.png in Resources */ = {isa = PBXBuildFile; fileRef = E71A84551316A67C0077BAC9 /* skyandstars.png */; };
+		E71A845E1316A67C0077BAC9 /* skyandstars@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = E71A84561316A67C0077BAC9 /* skyandstars@2x.png */; };
+		E71A845F1316A67C0077BAC9 /* skyandtree.png in Resources */ = {isa = PBXBuildFile; fileRef = E71A84571316A67C0077BAC9 /* skyandtree.png */; };
+		E71A84601316A67C0077BAC9 /* skyandtree@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = E71A84581316A67C0077BAC9 /* skyandtree@2x.png */; };
+		E71A84611316A67C0077BAC9 /* sunandearth.png in Resources */ = {isa = PBXBuildFile; fileRef = E71A84591316A67C0077BAC9 /* sunandearth.png */; };
+		E71A84621316A67C0077BAC9 /* sunandearth@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = E71A845A1316A67C0077BAC9 /* sunandearth@2x.png */; };
+		E71A84631316A67C0077BAC9 /* sunandmoon.png in Resources */ = {isa = PBXBuildFile; fileRef = E71A845B1316A67C0077BAC9 /* sunandmoon.png */; };
+		E71A84641316A67C0077BAC9 /* sunandmoon@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = E71A845C1316A67C0077BAC9 /* sunandmoon@2x.png */; };
+		E71A848B1316BAE30077BAC9 /* RootViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E71A848A1316BADD0077BAC9 /* RootViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -28,6 +45,28 @@
 		E71A842F1316955D0077BAC9 /* ArtClockAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ArtClockAppDelegate.h; sourceTree = "<group>"; };
 		E71A84301316955D0077BAC9 /* ArtClockAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ArtClockAppDelegate.m; sourceTree = "<group>"; };
 		E71A84331316955D0077BAC9 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/MainWindow.xib; sourceTree = "<group>"; };
+		E71A8440131698930077BAC9 /* SkyAndTreeViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = SkyAndTreeViewController.h; path = Classes/SkyAndTreeView/SkyAndTreeViewController.h; sourceTree = "<group>"; };
+		E71A8441131698930077BAC9 /* SkyAndTreeViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = SkyAndTreeViewController.m; path = Classes/SkyAndTreeView/SkyAndTreeViewController.m; sourceTree = "<group>"; };
+		E71A8442131698930077BAC9 /* SkyAndTreeViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = SkyAndTreeViewController.xib; path = Classes/SkyAndTreeView/SkyAndTreeViewController.xib; sourceTree = "<group>"; };
+		E71A8445131698CE0077BAC9 /* SunAndEarthViewcontroller.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = SunAndEarthViewcontroller.h; path = Classes/SunAndEarthView/SunAndEarthViewcontroller.h; sourceTree = "<group>"; };
+		E71A8446131698CE0077BAC9 /* SunAndEarthViewcontroller.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = SunAndEarthViewcontroller.m; path = Classes/SunAndEarthView/SunAndEarthViewcontroller.m; sourceTree = "<group>"; };
+		E71A8447131698CE0077BAC9 /* SunAndEarthViewcontroller.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = SunAndEarthViewcontroller.xib; path = Classes/SunAndEarthView/SunAndEarthViewcontroller.xib; sourceTree = "<group>"; };
+		E71A844A131699080077BAC9 /* SkyAndStarsViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = SkyAndStarsViewController.h; path = Classes/SkyAndStarsView/SkyAndStarsViewController.h; sourceTree = "<group>"; };
+		E71A844B131699080077BAC9 /* SkyAndStarsViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = SkyAndStarsViewController.m; path = Classes/SkyAndStarsView/SkyAndStarsViewController.m; sourceTree = "<group>"; };
+		E71A844C131699080077BAC9 /* SkyAndStarsViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = SkyAndStarsViewController.xib; path = Classes/SkyAndStarsView/SkyAndStarsViewController.xib; sourceTree = "<group>"; };
+		E71A84501316A39C0077BAC9 /* SunAndMoonViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = SunAndMoonViewController.h; path = Classes/SunAndMoonView/SunAndMoonViewController.h; sourceTree = "<group>"; };
+		E71A84511316A39C0077BAC9 /* SunAndMoonViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = SunAndMoonViewController.m; path = Classes/SunAndMoonView/SunAndMoonViewController.m; sourceTree = "<group>"; };
+		E71A84521316A39C0077BAC9 /* SunAndMoonViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = SunAndMoonViewController.xib; path = Classes/SunAndMoonView/SunAndMoonViewController.xib; sourceTree = "<group>"; };
+		E71A84551316A67C0077BAC9 /* skyandstars.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = skyandstars.png; path = Resources/images/skyandstars.png; sourceTree = "<group>"; };
+		E71A84561316A67C0077BAC9 /* skyandstars@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "skyandstars@2x.png"; path = "Resources/images/skyandstars@2x.png"; sourceTree = "<group>"; };
+		E71A84571316A67C0077BAC9 /* skyandtree.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = skyandtree.png; path = Resources/images/skyandtree.png; sourceTree = "<group>"; };
+		E71A84581316A67C0077BAC9 /* skyandtree@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "skyandtree@2x.png"; path = "Resources/images/skyandtree@2x.png"; sourceTree = "<group>"; };
+		E71A84591316A67C0077BAC9 /* sunandearth.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = sunandearth.png; path = Resources/images/sunandearth.png; sourceTree = "<group>"; };
+		E71A845A1316A67C0077BAC9 /* sunandearth@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "sunandearth@2x.png"; path = "Resources/images/sunandearth@2x.png"; sourceTree = "<group>"; };
+		E71A845B1316A67C0077BAC9 /* sunandmoon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = sunandmoon.png; path = Resources/images/sunandmoon.png; sourceTree = "<group>"; };
+		E71A845C1316A67C0077BAC9 /* sunandmoon@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "sunandmoon@2x.png"; path = "Resources/images/sunandmoon@2x.png"; sourceTree = "<group>"; };
+		E71A84891316BADB0077BAC9 /* RootViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RootViewController.h; sourceTree = "<group>"; };
+		E71A848A1316BADD0077BAC9 /* RootViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RootViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -47,6 +86,8 @@
 		E71A8411131695570077BAC9 = {
 			isa = PBXGroup;
 			children = (
+				E71A843B131696E70077BAC9 /* Resources */,
+				E71A843A131696950077BAC9 /* Classes */,
 				E71A84261316955D0077BAC9 /* ArtClock */,
 				E71A841F1316955D0077BAC9 /* Frameworks */,
 				E71A841D1316955D0077BAC9 /* Products */,
@@ -93,6 +134,82 @@
 			name = "Supporting Files";
 			sourceTree = "<group>";
 		};
+		E71A843A131696950077BAC9 /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				E71A844F1316A2A80077BAC9 /* SunAndMoonView */,
+				E71A843F131697D10077BAC9 /* SkyAndStarsView */,
+				E71A843E131697170077BAC9 /* SunAndEarthView */,
+				E71A843D1316970A0077BAC9 /* SkyAndTreeView */,
+				E71A84891316BADB0077BAC9 /* RootViewController.h */,
+				E71A848A1316BADD0077BAC9 /* RootViewController.m */,
+			);
+			name = Classes;
+			sourceTree = "<group>";
+		};
+		E71A843B131696E70077BAC9 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				E71A843C131696F40077BAC9 /* images */,
+			);
+			name = Resources;
+			sourceTree = "<group>";
+		};
+		E71A843C131696F40077BAC9 /* images */ = {
+			isa = PBXGroup;
+			children = (
+				E71A84551316A67C0077BAC9 /* skyandstars.png */,
+				E71A84561316A67C0077BAC9 /* skyandstars@2x.png */,
+				E71A84571316A67C0077BAC9 /* skyandtree.png */,
+				E71A84581316A67C0077BAC9 /* skyandtree@2x.png */,
+				E71A84591316A67C0077BAC9 /* sunandearth.png */,
+				E71A845A1316A67C0077BAC9 /* sunandearth@2x.png */,
+				E71A845B1316A67C0077BAC9 /* sunandmoon.png */,
+				E71A845C1316A67C0077BAC9 /* sunandmoon@2x.png */,
+			);
+			name = images;
+			sourceTree = "<group>";
+		};
+		E71A843D1316970A0077BAC9 /* SkyAndTreeView */ = {
+			isa = PBXGroup;
+			children = (
+				E71A8440131698930077BAC9 /* SkyAndTreeViewController.h */,
+				E71A8441131698930077BAC9 /* SkyAndTreeViewController.m */,
+				E71A8442131698930077BAC9 /* SkyAndTreeViewController.xib */,
+			);
+			name = SkyAndTreeView;
+			sourceTree = "<group>";
+		};
+		E71A843E131697170077BAC9 /* SunAndEarthView */ = {
+			isa = PBXGroup;
+			children = (
+				E71A8445131698CE0077BAC9 /* SunAndEarthViewcontroller.h */,
+				E71A8446131698CE0077BAC9 /* SunAndEarthViewcontroller.m */,
+				E71A8447131698CE0077BAC9 /* SunAndEarthViewcontroller.xib */,
+			);
+			name = SunAndEarthView;
+			sourceTree = "<group>";
+		};
+		E71A843F131697D10077BAC9 /* SkyAndStarsView */ = {
+			isa = PBXGroup;
+			children = (
+				E71A844A131699080077BAC9 /* SkyAndStarsViewController.h */,
+				E71A844B131699080077BAC9 /* SkyAndStarsViewController.m */,
+				E71A844C131699080077BAC9 /* SkyAndStarsViewController.xib */,
+			);
+			name = SkyAndStarsView;
+			sourceTree = "<group>";
+		};
+		E71A844F1316A2A80077BAC9 /* SunAndMoonView */ = {
+			isa = PBXGroup;
+			children = (
+				E71A84501316A39C0077BAC9 /* SunAndMoonViewController.h */,
+				E71A84511316A39C0077BAC9 /* SunAndMoonViewController.m */,
+				E71A84521316A39C0077BAC9 /* SunAndMoonViewController.xib */,
+			);
+			name = SunAndMoonView;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -119,7 +236,7 @@
 		E71A8413131695570077BAC9 /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
-				ORGANIZATIONNAME = Mazdah.com;
+				ORGANIZATIONNAME = com.mazdah;
 			};
 			buildConfigurationList = E71A8416131695580077BAC9 /* Build configuration list for PBXProject "ArtClock" */;
 			compatibilityVersion = "Xcode 3.2";
@@ -145,6 +262,18 @@
 			files = (
 				E71A842B1316955D0077BAC9 /* InfoPlist.strings in Resources */,
 				E71A84341316955D0077BAC9 /* MainWindow.xib in Resources */,
+				E71A8444131698930077BAC9 /* SkyAndTreeViewController.xib in Resources */,
+				E71A8449131698CE0077BAC9 /* SunAndEarthViewcontroller.xib in Resources */,
+				E71A844E131699080077BAC9 /* SkyAndStarsViewController.xib in Resources */,
+				E71A84541316A39D0077BAC9 /* SunAndMoonViewController.xib in Resources */,
+				E71A845D1316A67C0077BAC9 /* skyandstars.png in Resources */,
+				E71A845E1316A67C0077BAC9 /* skyandstars@2x.png in Resources */,
+				E71A845F1316A67C0077BAC9 /* skyandtree.png in Resources */,
+				E71A84601316A67C0077BAC9 /* skyandtree@2x.png in Resources */,
+				E71A84611316A67C0077BAC9 /* sunandearth.png in Resources */,
+				E71A84621316A67C0077BAC9 /* sunandearth@2x.png in Resources */,
+				E71A84631316A67C0077BAC9 /* sunandmoon.png in Resources */,
+				E71A84641316A67C0077BAC9 /* sunandmoon@2x.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -157,6 +286,11 @@
 			files = (
 				E71A842E1316955D0077BAC9 /* main.m in Sources */,
 				E71A84311316955D0077BAC9 /* ArtClockAppDelegate.m in Sources */,
+				E71A8443131698930077BAC9 /* SkyAndTreeViewController.m in Sources */,
+				E71A8448131698CE0077BAC9 /* SunAndEarthViewcontroller.m in Sources */,
+				E71A844D131699080077BAC9 /* SkyAndStarsViewController.m in Sources */,
+				E71A84531316A39D0077BAC9 /* SunAndMoonViewController.m in Sources */,
+				E71A848B1316BAE30077BAC9 /* RootViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -186,7 +320,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer: HYOUNG JUN WOO (PZKN8A3Y5G)";
 				GCC_C_LANGUAGE_STANDARD = gnu99;
 				GCC_OPTIMIZATION_LEVEL = 0;
 				GCC_PREPROCESSOR_DEFINITIONS = DEBUG;
@@ -194,6 +328,7 @@
 				GCC_WARN_ABOUT_RETURN_TYPE = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
 				IPHONEOS_DEPLOYMENT_TARGET = 4.2;
+				"PROVISIONING_PROFILE[sdk=iphoneos*]" = "38B71DA4-67E4-477C-B417-E4D0811485E7";
 				SDKROOT = iphoneos;
 			};
 			name = Debug;
@@ -202,13 +337,14 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer: HYOUNG JUN WOO (PZKN8A3Y5G)";
 				GCC_C_LANGUAGE_STANDARD = gnu99;
 				GCC_VERSION = com.apple.compilers.llvmgcc42;
 				GCC_WARN_ABOUT_RETURN_TYPE = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
 				IPHONEOS_DEPLOYMENT_TARGET = 4.2;
 				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				"PROVISIONING_PROFILE[sdk=iphoneos*]" = "38B71DA4-67E4-477C-B417-E4D0811485E7";
 				SDKROOT = iphoneos;
 			};
 			name = Release;
@@ -223,6 +359,7 @@
 				GCC_PREFIX_HEADER = "ArtClock/ArtClock-Prefix.pch";
 				INFOPLIST_FILE = "ArtClock/ArtClock-Info.plist";
 				INSTALL_PATH = "$(LOCAL_APPS_DIR)";
+				IPHONEOS_DEPLOYMENT_TARGET = 3.2;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				WRAPPER_EXTENSION = app;
 			};
@@ -237,6 +374,7 @@
 				GCC_PREFIX_HEADER = "ArtClock/ArtClock-Prefix.pch";
 				INFOPLIST_FILE = "ArtClock/ArtClock-Info.plist";
 				INSTALL_PATH = "$(LOCAL_APPS_DIR)";
+				IPHONEOS_DEPLOYMENT_TARGET = 3.2;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				VALIDATE_PRODUCT = YES;
 				WRAPPER_EXTENSION = app;
@@ -262,6 +400,7 @@
 				E71A84391316955E0077BAC9 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

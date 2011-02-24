@@ -8,6 +8,12 @@
 
 #import <UIKit/UIKit.h>
 
+@class RootViewController;
+@class SunAndMoonViewController;
+@class SkyAndStarsViewController;
+@class SunAndEarthViewController;
+@class SkyAndTreeViewController;
+
 @interface ArtClockAppDelegate : NSObject <UIApplicationDelegate> {
 
 }
