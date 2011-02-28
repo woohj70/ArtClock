@@ -29,7 +29,7 @@
 */
 
 - (void) applicationDidFinishLaunching:(UIApplication *)application {
-    RootViewController *rootViewController = [[RootViewController alloc] init];
+    RootViewController *rootViewController = [[RootViewController alloc] initWithNibName:@"RootViewController" bundle:nil];
     
     self.window.rootViewController = rootViewController;
     [self.window addSubview:rootViewController.view];
