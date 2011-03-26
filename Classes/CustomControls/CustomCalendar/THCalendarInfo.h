@@ -101,6 +101,7 @@ typedef enum {
 
 - (NSString *) dayName;
 - (NSString *) monthName;
+- (NSString *) monthNameE;
 
 // go forward in time by one unit
 

@@ -58,7 +58,7 @@
  */
 
 
-- (id)initWithFrame:(CGRect)frame  delegate:(id <MyCalendarViewDelegate>)aDelegate withManagedObjectContext:managedObjectContext{
+- (id)initWithFrame:(CGRect)frame  delegate:(id <MyCalendarViewDelegate>)aDelegate {
     if (self = [super initWithFrame:frame]) {
         // Initialization code
 		self.delegate = aDelegate;
@@ -105,7 +105,7 @@
 }
 
 #pragma mark -
-#pragma mark UIAlertViewDelegate
+#pragma mark Move and Resize
 - (void)moveCalendar:(CGRect)frame {
     self.frame = frame;
 }
@@ -157,7 +157,23 @@
 
 - (void)selectedDateButton:(CalendarButton *)dateButton {
 	//	dateButton.selected = !dateButton.selected;
-	[delegate popupView:dateButton];
+//	[delegate popupView:dateButton];
+    
+    if (tempButton != nil) {
+        tempButton.selected = NO;
+        tempButton.backgroundColor = [UIColor clearColor];
+        
+        tempButton.opaque = YES;
+        tempButton.alpha = 1.0f;
+        
+        [tempButton release];
+    }
+    
+    dateButton.backgroundColor = [UIColor blueColor];
+    dateButton.opaque = NO;
+    dateButton.alpha = 0.3f;
+    
+    tempButton = [dateButton retain];
 }
 
 - (CGFloat)headerHeight { return 0.13707f * self.bounds.size.height; }
@@ -575,8 +591,7 @@
 */		
 
 		if ([date isToday]) {			
-//			[lDateButton setBackgroundImage:[UIImage imageNamed:@"t.png"] forState:UIControlStateNormal];
-            lDateButton.backgroundColor = [UIColor redColor];
+			[lDateButton setBackgroundImage:[UIImage imageNamed:@"bgToday.png"] forState:UIControlStateNormal];
 		} else {	
 //			[lDateButton setBackgroundImage:[UIImage imageNamed:@"E.png"] forState:UIControlStateNormal];	
 		}

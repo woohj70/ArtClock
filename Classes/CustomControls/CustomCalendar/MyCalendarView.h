@@ -48,6 +48,7 @@
     float fontSize;
     
     UIImageView *bgView;
+    CalendarButton *tempButton;
 }
 
 @property(nonatomic, assign) id <MyCalendarViewDelegate> delegate;
@@ -70,6 +71,8 @@
 - (void)removeAllButtons;
 - (void)addButtonArray;
 - (void)selectedDateButton:(UIButton *)dateButton;
+
+- (void)resizeCalendar:(CGRect)frame;
 
 @end
 

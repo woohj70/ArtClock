@@ -97,7 +97,7 @@ static SDCalendarHourFormat MyDefaultHourFormat;
 + (int) currentDayOfWeek
 {
 	return CFCalendarGetOrdinalityOfUnit (
-	   [CFCalendarCopyCurrent() autorelease],
+	   CFCalendarCopyCurrent(),
 	   kCFCalendarUnitDay,
 	   kCFCalendarUnitWeek,
 	   [self currentAbsoluteTime]
@@ -107,7 +107,7 @@ static SDCalendarHourFormat MyDefaultHourFormat;
 + (int) currentDayOfMonth
 {
 	return CFCalendarGetOrdinalityOfUnit (
-	   [CFCalendarCopyCurrent() autorelease],
+	   CFCalendarCopyCurrent(),
 	   kCFCalendarUnitDay,
 	   kCFCalendarUnitMonth,
 	   [self currentAbsoluteTime]
@@ -117,7 +117,7 @@ static SDCalendarHourFormat MyDefaultHourFormat;
 + (int) currentMonth
 {
 	return CFCalendarGetOrdinalityOfUnit (
-	   [CFCalendarCopyCurrent() autorelease],
+	   CFCalendarCopyCurrent(),
 	   kCFCalendarUnitMonth,
 	   kCFCalendarUnitYear,
 	   [self currentAbsoluteTime]
@@ -127,7 +127,7 @@ static SDCalendarHourFormat MyDefaultHourFormat;
 + (int) currentYear
 {
 	return CFCalendarGetOrdinalityOfUnit (
-	   [CFCalendarCopyCurrent() autorelease],
+	   CFCalendarCopyCurrent(),
 	   kCFCalendarUnitYear,
 	   kCFCalendarUnitEra,
 	   [self currentAbsoluteTime]
@@ -142,7 +142,7 @@ static SDCalendarHourFormat MyDefaultHourFormat;
 + (int) currentHourIn12HourFormat
 {
 	int myHour = CFCalendarGetOrdinalityOfUnit (
-	   [CFCalendarCopyCurrent() autorelease],
+	   CFCalendarCopyCurrent(),
 	   kCFCalendarUnitHour,
 	   kCFCalendarUnitDay,
 	   [self currentAbsoluteTime]
@@ -169,7 +169,7 @@ static SDCalendarHourFormat MyDefaultHourFormat;
 + (int) currentHourIn24HourFormat
 {
 	int myHour = CFCalendarGetOrdinalityOfUnit (
-	   [CFCalendarCopyCurrent() autorelease],
+	   CFCalendarCopyCurrent(),
 	   kCFCalendarUnitHour,
 	   kCFCalendarUnitDay,
 	   [self currentAbsoluteTime]
@@ -185,7 +185,7 @@ static SDCalendarHourFormat MyDefaultHourFormat;
 + (int) currentMinute
 {
 	int myMinute = CFCalendarGetOrdinalityOfUnit (
-	   [CFCalendarCopyCurrent() autorelease],
+	   CFCalendarCopyCurrent(),
 	   kCFCalendarUnitMinute,
 	   kCFCalendarUnitHour,
 	   [self currentAbsoluteTime]
@@ -201,7 +201,7 @@ static SDCalendarHourFormat MyDefaultHourFormat;
 + (int) currentSecond
 {
 	int mySecond = CFCalendarGetOrdinalityOfUnit (
-	   [CFCalendarCopyCurrent() autorelease],
+	   CFCalendarCopyCurrent(),
 	   kCFCalendarUnitSecond,
 	   kCFCalendarUnitMinute,
 	   [self currentAbsoluteTime]
@@ -217,7 +217,7 @@ static SDCalendarHourFormat MyDefaultHourFormat;
 + (int) daysInCurrentMonth
 {
 	CFRange r = CFCalendarGetRangeOfUnit (
-	   [CFCalendarCopyCurrent() autorelease],
+	   CFCalendarCopyCurrent(),
 	   kCFCalendarUnitDay,
 	   kCFCalendarUnitMonth,
 	   [self currentAbsoluteTime]

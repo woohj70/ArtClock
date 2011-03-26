@@ -10,6 +10,11 @@
 		E70C69E0131BDEF500AA078D /* left-arrow@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = E70C69DD131BDEF500AA078D /* left-arrow@2x.png */; };
 		E70C69E1131BDEF500AA078D /* right-arrow.png in Resources */ = {isa = PBXBuildFile; fileRef = E70C69DE131BDEF500AA078D /* right-arrow.png */; };
 		E70C69E2131BDEF500AA078D /* right-arrow@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = E70C69DF131BDEF500AA078D /* right-arrow@2x.png */; };
+		E70C6A2C131CEC1000AA078D /* TextBasedDigitalClockView.m in Sources */ = {isa = PBXBuildFile; fileRef = E70C6A2B131CEC0900AA078D /* TextBasedDigitalClockView.m */; };
+		E70C6A2F131CF14D00AA078D /* LCD.TTF in Resources */ = {isa = PBXBuildFile; fileRef = E70C6A2E131CF14D00AA078D /* LCD.TTF */; };
+		E70C6A32131CF40A00AA078D /* clockbg.png in Resources */ = {isa = PBXBuildFile; fileRef = E70C6A30131CF40800AA078D /* clockbg.png */; };
+		E70C6A33131CF40A00AA078D /* clockbg@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = E70C6A31131CF40900AA078D /* clockbg@2x.png */; };
+		E70C6A35131D58A700AA078D /* bgToday.png in Resources */ = {isa = PBXBuildFile; fileRef = E70C6A34131D58A600AA078D /* bgToday.png */; };
 		E71A84211316955D0077BAC9 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E71A84201316955D0077BAC9 /* UIKit.framework */; };
 		E71A84231316955D0077BAC9 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E71A84221316955D0077BAC9 /* Foundation.framework */; };
 		E71A84251316955D0077BAC9 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E71A84241316955D0077BAC9 /* CoreGraphics.framework */; };
@@ -37,6 +42,15 @@
 		E71A848E1316BFD80077BAC9 /* README in Resources */ = {isa = PBXBuildFile; fileRef = E71A848D1316BFD80077BAC9 /* README */; };
 		E71A84A51318AFD90077BAC9 /* calendarbg.png in Resources */ = {isa = PBXBuildFile; fileRef = E71A84A31318AFD90077BAC9 /* calendarbg.png */; };
 		E71A84A61318AFD90077BAC9 /* calendarbg@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = E71A84A41318AFD90077BAC9 /* calendarbg@2x.png */; };
+		E757DBB0133CFBA800CCB68E /* CustomCompassView.m in Sources */ = {isa = PBXBuildFile; fileRef = E757DBAF133CFBA800CCB68E /* CustomCompassView.m */; };
+		E757DBC1133DF04900CCB68E /* compass.png in Resources */ = {isa = PBXBuildFile; fileRef = E757DBBD133DF04900CCB68E /* compass.png */; };
+		E757DBC2133DF04900CCB68E /* compass@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = E757DBBE133DF04900CCB68E /* compass@2x.png */; };
+		E757DBC3133DF04900CCB68E /* compassBg.png in Resources */ = {isa = PBXBuildFile; fileRef = E757DBBF133DF04900CCB68E /* compassBg.png */; };
+		E757DBC4133DF04900CCB68E /* compassBg@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = E757DBC0133DF04900CCB68E /* compassBg@2x.png */; };
+		E757DBC6133E081400CCB68E /* MapKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E757DBC5133E081400CCB68E /* MapKit.framework */; };
+		E757DBC8133E08AA00CCB68E /* CoreLocation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E757DBC7133E08AA00CCB68E /* CoreLocation.framework */; };
+		E757DBCB133E5B8700CCB68E /* compassL.png in Resources */ = {isa = PBXBuildFile; fileRef = E757DBC9133E5B8700CCB68E /* compassL.png */; };
+		E757DBCC133E5B8700CCB68E /* compassL@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = E757DBCA133E5B8700CCB68E /* compassL@2x.png */; };
 		E7FD9952131911350044D4A6 /* RootViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = E7FD9951131911350044D4A6 /* RootViewController.xib */; };
 		E7FD996F1319549B0044D4A6 /* CalendarButton.m in Sources */ = {isa = PBXBuildFile; fileRef = E7FD99621319549B0044D4A6 /* CalendarButton.m */; };
 		E7FD99701319549B0044D4A6 /* KLCalendarModel.m in Sources */ = {isa = PBXBuildFile; fileRef = E7FD99641319549B0044D4A6 /* KLCalendarModel.m */; };
@@ -53,6 +67,12 @@
 		E70C69DD131BDEF500AA078D /* left-arrow@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "left-arrow@2x.png"; path = "Resources/images/left-arrow@2x.png"; sourceTree = "<group>"; };
 		E70C69DE131BDEF500AA078D /* right-arrow.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "right-arrow.png"; path = "Resources/images/right-arrow.png"; sourceTree = "<group>"; };
 		E70C69DF131BDEF500AA078D /* right-arrow@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "right-arrow@2x.png"; path = "Resources/images/right-arrow@2x.png"; sourceTree = "<group>"; };
+		E70C6A2A131CEC0800AA078D /* TextBasedDigitalClockView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = TextBasedDigitalClockView.h; path = Classes/CustomControls/CustomClock/TextBasedDigitalClockView.h; sourceTree = "<group>"; };
+		E70C6A2B131CEC0900AA078D /* TextBasedDigitalClockView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = TextBasedDigitalClockView.m; path = Classes/CustomControls/CustomClock/TextBasedDigitalClockView.m; sourceTree = "<group>"; };
+		E70C6A2E131CF14D00AA078D /* LCD.TTF */ = {isa = PBXFileReference; lastKnownFileType = file; name = LCD.TTF; path = Resources/Fonts/LCD.TTF; sourceTree = "<group>"; };
+		E70C6A30131CF40800AA078D /* clockbg.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = clockbg.png; path = Resources/images/clockbg.png; sourceTree = "<group>"; };
+		E70C6A31131CF40900AA078D /* clockbg@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "clockbg@2x.png"; path = "Resources/images/clockbg@2x.png"; sourceTree = "<group>"; };
+		E70C6A34131D58A600AA078D /* bgToday.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = bgToday.png; path = Resources/images/bgToday.png; sourceTree = "<group>"; };
 		E71A841C1316955D0077BAC9 /* ArtClock.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ArtClock.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		E71A84201316955D0077BAC9 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
 		E71A84221316955D0077BAC9 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
@@ -89,6 +109,17 @@
 		E71A848D1316BFD80077BAC9 /* README */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = README; sourceTree = "<group>"; };
 		E71A84A31318AFD90077BAC9 /* calendarbg.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = calendarbg.png; path = Resources/images/calendarbg.png; sourceTree = "<group>"; };
 		E71A84A41318AFD90077BAC9 /* calendarbg@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "calendarbg@2x.png"; path = "Resources/images/calendarbg@2x.png"; sourceTree = "<group>"; };
+		E757DBAE133CFBA800CCB68E /* CustomCompassView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = CustomCompassView.h; path = Classes/CustomCompass/CustomCompassView.h; sourceTree = "<group>"; };
+		E757DBAF133CFBA800CCB68E /* CustomCompassView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = CustomCompassView.m; path = Classes/CustomCompass/CustomCompassView.m; sourceTree = "<group>"; };
+		E757DBBD133DF04900CCB68E /* compass.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = compass.png; path = Resources/images/compass.png; sourceTree = "<group>"; };
+		E757DBBE133DF04900CCB68E /* compass@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "compass@2x.png"; path = "Resources/images/compass@2x.png"; sourceTree = "<group>"; };
+		E757DBBF133DF04900CCB68E /* compassBg.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = compassBg.png; path = Resources/images/compassBg.png; sourceTree = "<group>"; };
+		E757DBC0133DF04900CCB68E /* compassBg@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "compassBg@2x.png"; path = "Resources/images/compassBg@2x.png"; sourceTree = "<group>"; };
+		E757DBC5133E081400CCB68E /* MapKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MapKit.framework; path = System/Library/Frameworks/MapKit.framework; sourceTree = SDKROOT; };
+		E757DBC7133E08AA00CCB68E /* CoreLocation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreLocation.framework; path = System/Library/Frameworks/CoreLocation.framework; sourceTree = SDKROOT; };
+		E757DBC9133E5B8700CCB68E /* compassL.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = compassL.png; path = Resources/images/compassL.png; sourceTree = "<group>"; };
+		E757DBCA133E5B8700CCB68E /* compassL@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "compassL@2x.png"; path = "Resources/images/compassL@2x.png"; sourceTree = "<group>"; };
+		E757DBCD133E5BD000CCB68E /* CompassConfig.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = CompassConfig.h; path = Classes/CustomCompass/CompassConfig.h; sourceTree = "<group>"; };
 		E7FD9951131911350044D4A6 /* RootViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = RootViewController.xib; path = Classes/RootViewController.xib; sourceTree = "<group>"; };
 		E7FD99611319549B0044D4A6 /* CalendarButton.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CalendarButton.h; sourceTree = "<group>"; };
 		E7FD99621319549B0044D4A6 /* CalendarButton.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CalendarButton.m; sourceTree = "<group>"; };
@@ -113,6 +144,8 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E757DBC8133E08AA00CCB68E /* CoreLocation.framework in Frameworks */,
+				E757DBC6133E081400CCB68E /* MapKit.framework in Frameworks */,
 				E7FD9977131958CA0044D4A6 /* QuartzCore.framework in Frameworks */,
 				E71A84211316955D0077BAC9 /* UIKit.framework in Frameworks */,
 				E71A84231316955D0077BAC9 /* Foundation.framework in Frameworks */,
@@ -123,9 +156,28 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		E70C6A13131CD24E00AA078D /* CustomClock */ = {
+			isa = PBXGroup;
+			children = (
+				E70C6A2A131CEC0800AA078D /* TextBasedDigitalClockView.h */,
+				E70C6A2B131CEC0900AA078D /* TextBasedDigitalClockView.m */,
+			);
+			name = CustomClock;
+			sourceTree = "<group>";
+		};
+		E70C6A2D131CF0E500AA078D /* Fonts */ = {
+			isa = PBXGroup;
+			children = (
+				E70C6A2E131CF14D00AA078D /* LCD.TTF */,
+			);
+			name = Fonts;
+			sourceTree = "<group>";
+		};
 		E71A8411131695570077BAC9 = {
 			isa = PBXGroup;
 			children = (
+				E757DBC7133E08AA00CCB68E /* CoreLocation.framework */,
+				E757DBC5133E081400CCB68E /* MapKit.framework */,
 				E7FD9976131958C90044D4A6 /* QuartzCore.framework */,
 				E71A848D1316BFD80077BAC9 /* README */,
 				E71A843B131696E70077BAC9 /* Resources */,
@@ -194,6 +246,7 @@
 		E71A843B131696E70077BAC9 /* Resources */ = {
 			isa = PBXGroup;
 			children = (
+				E70C6A2D131CF0E500AA078D /* Fonts */,
 				E71A843C131696F40077BAC9 /* images */,
 			);
 			name = Resources;
@@ -202,6 +255,15 @@
 		E71A843C131696F40077BAC9 /* images */ = {
 			isa = PBXGroup;
 			children = (
+				E757DBC9133E5B8700CCB68E /* compassL.png */,
+				E757DBCA133E5B8700CCB68E /* compassL@2x.png */,
+				E757DBBD133DF04900CCB68E /* compass.png */,
+				E757DBBE133DF04900CCB68E /* compass@2x.png */,
+				E757DBBF133DF04900CCB68E /* compassBg.png */,
+				E757DBC0133DF04900CCB68E /* compassBg@2x.png */,
+				E70C6A34131D58A600AA078D /* bgToday.png */,
+				E70C6A30131CF40800AA078D /* clockbg.png */,
+				E70C6A31131CF40900AA078D /* clockbg@2x.png */,
 				E7FD9980131BC92D0044D4A6 /* left-arrow.png */,
 				E70C69DD131BDEF500AA078D /* left-arrow@2x.png */,
 				E70C69DE131BDEF500AA078D /* right-arrow.png */,
@@ -260,9 +322,21 @@
 			name = SunAndMoonView;
 			sourceTree = "<group>";
 		};
+		E757DBAC133CFB4C00CCB68E /* CustomCompass */ = {
+			isa = PBXGroup;
+			children = (
+				E757DBAE133CFBA800CCB68E /* CustomCompassView.h */,
+				E757DBAF133CFBA800CCB68E /* CustomCompassView.m */,
+				E757DBCD133E5BD000CCB68E /* CompassConfig.h */,
+			);
+			name = CustomCompass;
+			sourceTree = "<group>";
+		};
 		E7FD9953131911810044D4A6 /* CustomControls */ = {
 			isa = PBXGroup;
 			children = (
+				E757DBAC133CFB4C00CCB68E /* CustomCompass */,
+				E70C6A13131CD24E00AA078D /* CustomClock */,
 				E7FD99601319549B0044D4A6 /* CustomCalendar */,
 			);
 			name = CustomControls;
@@ -362,6 +436,16 @@
 				E70C69E0131BDEF500AA078D /* left-arrow@2x.png in Resources */,
 				E70C69E1131BDEF500AA078D /* right-arrow.png in Resources */,
 				E70C69E2131BDEF500AA078D /* right-arrow@2x.png in Resources */,
+				E70C6A2F131CF14D00AA078D /* LCD.TTF in Resources */,
+				E70C6A32131CF40A00AA078D /* clockbg.png in Resources */,
+				E70C6A33131CF40A00AA078D /* clockbg@2x.png in Resources */,
+				E70C6A35131D58A700AA078D /* bgToday.png in Resources */,
+				E757DBC1133DF04900CCB68E /* compass.png in Resources */,
+				E757DBC2133DF04900CCB68E /* compass@2x.png in Resources */,
+				E757DBC3133DF04900CCB68E /* compassBg.png in Resources */,
+				E757DBC4133DF04900CCB68E /* compassBg@2x.png in Resources */,
+				E757DBCB133E5B8700CCB68E /* compassL.png in Resources */,
+				E757DBCC133E5B8700CCB68E /* compassL@2x.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -386,6 +470,8 @@
 				E7FD99731319549B0044D4A6 /* MCSolarDate.m in Sources */,
 				E7FD99741319549B0044D4A6 /* MyCalendarView.m in Sources */,
 				E7FD99751319549B0044D4A6 /* THCalendarInfo.m in Sources */,
+				E70C6A2C131CEC1000AA078D /* TextBasedDigitalClockView.m in Sources */,
+				E757DBB0133CFBA800CCB68E /* CustomCompassView.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

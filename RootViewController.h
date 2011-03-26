@@ -16,6 +16,8 @@
 //#import "SkyAndTreeViewController.h"
 
 #import "MyCalendarView.h"
+#import "TextBasedDigitalClockView.h"
+#import "CustomCompassView.h"
 
 @interface RootViewController : UIViewController <MyCalendarViewDelegate> {
 /*
@@ -27,7 +29,10 @@
   
     UIImageView *bgImageView;
     MyCalendarView *calView;
-
+    TextBasedDigitalClockView *customClockView;
+    CustomCompassView *customCompassView;
+    
+    int currentTag;
 }
 
 /*
@@ -39,6 +44,7 @@
 
 @property (nonatomic, retain) IBOutlet UIImageView *bgImageView;
 @property (nonatomic, retain)  MyCalendarView *calView;
-
+@property (nonatomic, retain)  TextBasedDigitalClockView *customClockView;
+@property (nonatomic, retain)  CustomCompassView *customCompassView;
 
 @end

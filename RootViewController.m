@@ -15,7 +15,8 @@
 //@synthesize ssViewController, seViewController,stViewController, smViewController;
 @synthesize bgImageView;
 @synthesize calView;
-
+@synthesize customClockView;
+@synthesize customCompassView;
 
 - (id)initWithNibName:(NSString *)nibNameOrNil bundle:(NSBundle *)nibBundleOrNil
 {
@@ -49,7 +50,7 @@
     srandom(time(NULL));
     int dec = random() % 4;
     
-    NSLog([NSString stringWithFormat:@"Shaking start : random = %d", dec]);
+//    NSLog([NSString stringWithFormat:@"Shaking start : random = %d", dec]);
     
 //    ArtClockAppDelegate *appDelegate = (ArtClockAppDelegate *)[[UIApplication sharedApplication] delegate];
 //    [self.view removeFromSuperview];
@@ -88,38 +89,196 @@
 #pragma mark - Swipe Methods
 
 - (void)swipeLeftAction:(id)ignored {
-    float ncalHeight = 70.0f;
-    
-    [UIView beginAnimations:nil context:NULL];
-    [UIView setAnimationDuration:0.3];
-    
-    // we need to perform some post operations after the animation is complete
-    [UIView setAnimationDelegate:self];
-
-    [calView resizeCalendar:CGRectMake(10.0f, (480 / 2) - (ncalHeight / 2), ncalHeight, ncalHeight)];
- //   calView.frame = CGRectMake(10.0f, (480 / 2) - (ncalHeight / 2), ncalHeight, ncalHeight);
-
-    /*
-    [calView removeFromSuperview];
-    calView = [[MyCalendarView alloc] initWithFrame:CGRectMake(10.0f, (480 / 2) - (calHeight / 2), calHeight, calHeight) delegate:nil withManagedObjectContext:nil];
-    [self.view addSubview:calView];
-    [self.view bringSubviewToFront:calView];
-    */
-    [UIView commitAnimations];
+    if (currentTag == -1) {
+        float wcalHeight = 300.0f;
+        [UIView beginAnimations:nil context:NULL];
+        [UIView setAnimationDuration:0.3];
+        
+        // we need to perform some post operations after the animation is complete
+        [UIView setAnimationDelegate:self];
+        [customCompassView resizeView:CGRectMake(10.0f, (460 / 2) - (wcalHeight / 2) - 10, wcalHeight, wcalHeight)];
+        [UIView commitAnimations];
+        
+        currentTag = 2;
+    } else if(currentTag == 0) {
+        float wcalHeight = 70.0f;
+        [UIView beginAnimations:nil context:NULL];
+        [UIView setAnimationDuration:0.3];
+        
+        // we need to perform some post operations after the animation is complete
+        [UIView setAnimationDelegate:self];
+        
+        [calView resizeCalendar:CGRectMake(10.0f, 460 - wcalHeight - 10, wcalHeight, wcalHeight)];
+        [customClockView resizeClock:CGRectMake(85.0f, 460 - (wcalHeight / 3) - 10 - ((wcalHeight - (wcalHeight / 3)) / 2), wcalHeight, wcalHeight / 3)];
+        [UIView commitAnimations];
+        
+        wcalHeight = 300.0f;
+        [UIView beginAnimations:nil context:NULL];
+        [UIView setAnimationDuration:0.3];
+        
+        // we need to perform some post operations after the animation is complete
+        [UIView setAnimationDelegate:self];
+        
+        [customCompassView resizeView:CGRectMake(10.0f, (460 / 2) - (wcalHeight / 2) - 10, wcalHeight, wcalHeight)];
+        [UIView commitAnimations];
+        
+        currentTag = 2;
+    } else if(currentTag == 1) {
+        float wcalHeight = 70.0f;
+        [UIView beginAnimations:nil context:NULL];
+        [UIView setAnimationDuration:0.3];
+        
+        // we need to perform some post operations after the animation is complete
+        [UIView setAnimationDelegate:self];
+        
+        [customClockView resizeClock:CGRectMake(10.0f, 460 - (wcalHeight / 3) - 10 - ((wcalHeight - (wcalHeight / 3)) / 2), wcalHeight, wcalHeight / 3)];
+        [customCompassView resizeView:CGRectMake(85.0f, 460 - wcalHeight - 10, wcalHeight, wcalHeight)];
+        [UIView commitAnimations];
+        
+        wcalHeight = 300.0f;
+        [UIView beginAnimations:nil context:NULL];
+        [UIView setAnimationDuration:0.3];
+        
+        // we need to perform some post operations after the animation is complete
+        [UIView setAnimationDelegate:self];
+        
+        [calView resizeCalendar:CGRectMake(10.0f, (460 / 2) - (wcalHeight / 2) - 10, wcalHeight, wcalHeight)];
+        
+        [UIView commitAnimations];
+        
+        currentTag = 0;
+    } else if(currentTag == 2) {
+        float wcalHeight = 70.0f;
+        [UIView beginAnimations:nil context:NULL];
+        [UIView setAnimationDuration:0.3];
+        
+        // we need to perform some post operations after the animation is complete
+        [UIView setAnimationDelegate:self];
+        [calView resizeCalendar:CGRectMake(85.0f, 460 - wcalHeight - 10, wcalHeight, wcalHeight)];
+        [customCompassView resizeView:CGRectMake(10.0f, 460 - wcalHeight - 10, wcalHeight, wcalHeight)];
+        
+        [UIView commitAnimations];
+        
+        wcalHeight = 300.0f;
+        [UIView beginAnimations:nil context:NULL];
+        [UIView setAnimationDuration:0.3];
+        
+        // we need to perform some post operations after the animation is complete
+        [UIView setAnimationDelegate:self];
+        
+        [customClockView resizeClock:CGRectMake(10.0f, (460 / 2) - ((wcalHeight / 3) / 2) - 30, wcalHeight, wcalHeight / 3)];
+        
+        [UIView commitAnimations];
+        
+        currentTag = 1;
+    }
 }
 
 - (void)swipeRightAction:(id)ignored {
     float wcalHeight = 300.0f;
     
-    [UIView beginAnimations:nil context:NULL];
-    [UIView setAnimationDuration:0.3];
+    if (currentTag == -1) {
+        float wcalHeight = 300.0f;
+        [UIView beginAnimations:nil context:NULL];
+        [UIView setAnimationDuration:0.3];
+        
+        // we need to perform some post operations after the animation is complete
+        [UIView setAnimationDelegate:self];
+        
+        [calView resizeCalendar:CGRectMake(10.0f, (460 / 2) - (wcalHeight / 2) - 10, wcalHeight, wcalHeight)];
+        
+        [UIView commitAnimations];
+        
+        wcalHeight = 70.0f;
+        [UIView beginAnimations:nil context:NULL];
+        [UIView setAnimationDuration:0.3];
+        
+        // we need to perform some post operations after the animation is complete
+        [UIView setAnimationDelegate:self];
+        
+        [customClockView resizeClock:CGRectMake(10.0f, 460 - (wcalHeight / 3) - 10 - ((wcalHeight - (wcalHeight / 3)) / 2), wcalHeight, wcalHeight / 3)];
+        
+        [customCompassView resizeView:CGRectMake(85.0f, 460 - wcalHeight - 10, wcalHeight, wcalHeight)];
+        
+        [UIView commitAnimations];
+        
+        currentTag = 0;
+    } else if(currentTag == 0) {
+        float wcalHeight = 70.0f;
+        [UIView beginAnimations:nil context:NULL];
+        [UIView setAnimationDuration:0.3];
+        
+        // we need to perform some post operations after the animation is complete
+        [UIView setAnimationDelegate:self];
+        
+        [customCompassView resizeView:CGRectMake(10.0f, 460 - wcalHeight - 10, wcalHeight, wcalHeight)];
+        [calView resizeCalendar:CGRectMake(85.0f, 460 - wcalHeight - 10, wcalHeight, wcalHeight)];
+        
+        [UIView commitAnimations];
+        
+        wcalHeight = 300.0f;
+        [UIView beginAnimations:nil context:NULL];
+        [UIView setAnimationDuration:0.3];
+        
+        // we need to perform some post operations after the animation is complete
+        [UIView setAnimationDelegate:self];
+        
+        [customClockView resizeClock:CGRectMake(10.0f, (460 / 2) - ((wcalHeight / 3) / 2) - 30, wcalHeight, wcalHeight / 3)];
+        
+        [UIView commitAnimations];
+        
+        currentTag = 1;
+    } else if(currentTag == 1) {
+        float wcalHeight = 70.0f;
+        [UIView beginAnimations:nil context:NULL];
+        [UIView setAnimationDuration:0.3];
+        
+        // we need to perform some post operations after the animation is complete
+        [UIView setAnimationDelegate:self];
+        
+        [customClockView resizeClock:CGRectMake(85.0f, 460 - (wcalHeight / 3) - 10 - ((wcalHeight - (wcalHeight / 3)) / 2), wcalHeight, wcalHeight / 3)];
+        [calView resizeCalendar:CGRectMake(10.0f, 460 - wcalHeight - 10, wcalHeight, wcalHeight)];
+        
+        [UIView commitAnimations];
+        
+        wcalHeight = 300.0f;
+        [UIView beginAnimations:nil context:NULL];
+        [UIView setAnimationDuration:0.3];
+        
+        // we need to perform some post operations after the animation is complete
+        [UIView setAnimationDelegate:self];
     
-    // we need to perform some post operations after the animation is complete
-    [UIView setAnimationDelegate:self];
+        [customCompassView resizeView:CGRectMake(10.0f, (460 / 2) - (wcalHeight / 2) - 10, wcalHeight, wcalHeight)];
+        [UIView commitAnimations];
+        
+        currentTag = 2;
+    } else if(currentTag == 2) {
+        float wcalHeight = 70.0f;
+        [UIView beginAnimations:nil context:NULL];
+        [UIView setAnimationDuration:0.3];
+        
+        // we need to perform some post operations after the animation is complete
+        [UIView setAnimationDelegate:self];
+        
+        [customClockView resizeClock:CGRectMake(10.0f, 460 - (wcalHeight / 3) - 10 - ((wcalHeight - (wcalHeight / 3)) / 2), wcalHeight, wcalHeight / 3)];
+        [customCompassView resizeView:CGRectMake(85.0f, 460 - wcalHeight - 10, wcalHeight, wcalHeight)];
+        [UIView commitAnimations];
+        
+        wcalHeight = 300.0f;
+        [UIView beginAnimations:nil context:NULL];
+        [UIView setAnimationDuration:0.3];
+        
+        // we need to perform some post operations after the animation is complete
+        [UIView setAnimationDelegate:self];
+        
+        [calView resizeCalendar:CGRectMake(10.0f, (460 / 2) - (wcalHeight / 2) - 10, wcalHeight, wcalHeight)];
+        
+        [UIView commitAnimations];
+        
+        currentTag = 0;
+    }
     
-    [calView resizeCalendar:CGRectMake(10.0f, (480 / 2) - (wcalHeight / 2), wcalHeight, wcalHeight)];
     
-    [UIView commitAnimations];
 }
 
 #pragma mark - View lifecycle
@@ -153,13 +312,26 @@
 - (void)loadView {
     [super loadView];
     NSLog(@"loadView");
+    
+    currentTag = -1;
+    
     float calHeight = 70.0f;
     
-    calView = [[MyCalendarView alloc] initWithFrame:CGRectMake(10.0f, (480 / 2) - (calHeight / 2), calHeight, calHeight) delegate:self withManagedObjectContext:nil];
+    calView = [[MyCalendarView alloc] initWithFrame:CGRectMake(10.0f, 460 - calHeight - 10, calHeight, calHeight) delegate:self];
+    calView.tag = 0;
     [self.view addSubview:calView];
     [self.view bringSubviewToFront:calView];
     
+    customClockView = [[TextBasedDigitalClockView alloc]  initWithFrame:CGRectMake(85.0f, 460 - (calHeight / 3) - 10 - ((calHeight - calHeight / 3) / 2), calHeight, calHeight / 3)];
+    customClockView.tag = 1;
+    [self.view addSubview:customClockView];
+    [self.view bringSubviewToFront:customClockView];
+    [customClockView startClockProcessor];
     
+    customCompassView = [[CustomCompassView alloc]  initWithFrame:CGRectMake(160.0f, 460 - calHeight - 10, calHeight, calHeight)];
+    customCompassView.tag = 2;
+    [self.view addSubview:customCompassView];
+    [self.view bringSubviewToFront:customCompassView];
 }
 
 - (void) viewDidAppear:(BOOL)animated {
@@ -182,7 +354,8 @@
     
     [bgImageView release];
     [calView release];
-
+    [customClockView release];
+    [customCompassView release];
     [super viewDidUnload];
     // Release any retained subviews of the main view.
     // e.g. self.myOutlet = nil;
